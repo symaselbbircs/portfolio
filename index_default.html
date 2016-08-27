@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Amy Meyers Portfolio</title>
+  <link rel="stylesheet" href="style_default.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+</head>
+<body>
+  <div id="page">
+    <div id="header"></div>
+    <div class=side_ground></div>
+      <div id="main">
+        <div id="introduction">
+          <img src="img/me.jpg" alt="profile_pic">
+          <h1>Amy Meyers<span>portfolio</span></h1>
+          <p>Amy is an inquisitive woman who thoroughly enjoys understanding how systems work, with a particular interest in machine learning systems. When not at a computer, Amy finds a lot of pleasure in being with family and friends in the trans and queer communities.</p>
+        </div><br>
+        <hr>
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-1">Employment</a></li>
+            <li><a href="#tabs-2">Projects</a></li>
+            <li><a href="#tabs-3">Contact Information</a></li>
+          </ul>
+          <div id="tabs-1">
+            <p><span>Flowroute: </span>Engineering - Carrier Operations</p>
+          </div>
+          <div id="tabs-2">
+            <ul>
+              <li><p>Use machine learning algorithms to perform activity recognition and gait characteristic classification. Additionally, project was implemented on an Android mobile device.</p></li>
+              <li><p>Rotationally invariant texture recognition</p></li>
+            </ul><br><br>
+            <p>For more information on projects, click <a href="https://www.linkedin.com/in/amy-meyers-256b0488" target="_black"> Here</a>.</p>
+          </div>
+          <div id="tabs-3">
+            <p><span>Email:</span> <a href="mailto:amy88meyers@gmail.com">amy88meyers@gmail.com</a></p>
+            <p><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/amy-meyers-256b0488" target="_blank"> Amy Meyers</a></p>
+            <p><span>GitHub:</span> <a href="https://github.com/symaselbbircs/" target="_blank"> symaselbircs</a></p>
+          </div>
+        </div>
+      </div>
+      <div class=side_ground></div>
+    </div>
+</body>
+</html>

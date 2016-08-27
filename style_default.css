@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma"
+}
+
+span{
+  font-weight: bold;
+}
+
+#page{
+  width: 930px;
+  height: 1000px;
+}
+#main {
+  padding: 5px 10px;
+  width: 700px;
+  vertical-align: top;
+  background-color: white;
+  display: inline-block;
+  height: auto;
+}
+#header{
+  height: 20px;
+  background-color: lightgrey;
+}
+
+#introduction img{
+  height: 100px;
+  width: 120px;
+  display: inline-block;
+}
+#introduction span{
+  font-size: 10px;
+  color: darkgrey;
+}
+#introduction h1{
+  vertical-align: top;
+  display: inline-block;
+}
+
+#tabs{
+  margin-top: 10px;
+  border: none;
+}
+  #tabs ul{
+    background-color: white;
+    border: none;
+  }
+  #tabs a{
+    border: none;
+  }
+.side_ground {
+  background-color: black;
+  display: inline-block;
+  width: 100px;
+  height: 1000px;
+}
